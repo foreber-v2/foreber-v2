@@ -30,7 +30,7 @@ Development and modification of an inductance measurement instrument, including 
 
 **Highlights:** Electronic measurement · Circuit design · PCB fabrication · Hardware validation
 
-[View project →](https://github.com/foreber-v2/inductance-meter)
+[View project →](https://github.com/foreber-v2/Inductance-Meter-Custom-Hardware)
 
 
 ### 🧰 Tools & Technologies
