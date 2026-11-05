@@ -23,7 +23,7 @@ Development of a custom electrical discharge machining prototype, integrating po
 
 **Highlights:** System integration · STM32 firmware · Power electronics · Functional testing
 
-[View project →](https://foreber-v2.github.io/stm32-sinker-edm) *(O si prefieres el código fuente en GitHub: https://github.com/foreber-v2/stm32-sinker-edm)*
+👉 **[Ver Sitio Web (Pages)](https://foreber-v2.github.io/stm32-sinker-edm/)** | 📂 **[Ver Código en GitHub](https://github.com/foreber-v2/stm32-sinker-edm)**
 
 #### 📏 Inductance Meter — Custom Hardware
 Development and modification of an inductance measurement instrument, including schematic redesign, custom PCB layout, fabrication, and experimental testing.
