@@ -1,39 +1,54 @@
-# ⚙️ Mechanical Engineer | Mechatronics, Embedded Systems & Industrial Data
+<div align="center">
+
+# Mechanical Engineer
+### Mechatronics · Embedded Systems · Industrial Data
 
 **I turn engineering ideas into working systems.**
 
-Mechanical engineer interested in the intersection of mechanical design, electronics, embedded systems, instrumentation, and industrial data. I enjoy designing, building, testing, and improving practical solutions — from individual circuits to complete electromechanical prototypes.
+[![Portfolio](https://img.shields.io/badge/Portfolio-solucionesdedalo.com-2450E6?style=for-the-badge)](https://solucionesdedalo.com)
+[![Email](https://img.shields.io/badge/Email-Contact_me-12202F?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contacto@solucionesdedalo.com)
+
+</div>
 
 ---
 
-### 🔧 Engineering Focus
+## 🚀 Featured projects
 
-| Area | Focus |
-|---|---|
-| ⚙️ **Mechanical Engineering** | Prototyping, fabrication, equipment modifications, and practical problem-solving |
-| ⚡ **Electronics & Instrumentation** | Circuit design, PCB development, measurement systems, and power electronics |
-| 💻 **Embedded Systems** | STM32, C, microcontroller peripherals, and real-time control |
-| 📊 **Industrial Data** | Python, SQL, Power BI, Power Query, and data preprocessing |
-| 📱 **Software Development** | Kotlin, Android, Jetpack, MVVM and Room |
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://foreber-v2.github.io/stm32-sinker-edm/">
+        <img src="assets/sinker-edm.jpg" alt="STM32-Based Sinker EDM" width="100%">
+      </a>
+      <h3>⚡ STM32-Based Sinker EDM</h3>
+      <p>Custom electrical discharge machine: power electronics, embedded control, custom PCBs and mechanical fabrication.</p>
+      <a href="https://foreber-v2.github.io/stm32-sinker-edm/"><b>Project page</b></a> ·
+      <a href="https://github.com/foreber-v2/stm32-sinker-edm">Source code</a>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://github.com/foreber-v2/Inductance-Meter-Custom-Hardware">
+        <img src="assets/inductance-meter.jpg" alt="Inductance Meter Custom Hardware" width="100%">
+      </a>
+      <h3>📏 Inductance Meter</h3>
+      <p>Redesigned measurement instrument: new schematic, custom PCB, fabrication and experimental validation.</p>
+      <a href="https://github.com/foreber-v2/Inductance-Meter-Custom-Hardware"><b>View project</b></a>
+    </td>
+  </tr>
+</table>
 
-### 🚀 Featured Projects
+---
 
-#### ⚡ STM32-Based Sinker EDM
-Development of a custom electrical discharge machining prototype, integrating power electronics, embedded control, custom PCBs, and mechanical fabrication.
+## 🔧 What I work on
 
-**Highlights:** System integration · STM32 firmware · Power electronics · Functional testing
+| | Area | Focus |
+|---|---|---|
+| ⚙️ | **Mechanical** | Prototyping, fabrication, equipment modification |
+| ⚡ | **Electronics** | Circuit design, PCBs, measurement systems, power electronics |
+| 💻 | **Embedded** | STM32, C, peripherals, real-time control |
+| 📊 | **Industrial data** | Python, SQL, Power BI, Power Query |
+| 📱 | **Software** | Kotlin, Android, Jetpack, MVVM, Room |
 
-👉 **[Ver Sitio Web (Pages)](https://foreber-v2.github.io/stm32-sinker-edm/)** | 📂 **[Ver Código en GitHub](https://github.com/foreber-v2/stm32-sinker-edm)**
-
-#### 📏 Inductance Meter — Custom Hardware
-Development and modification of an inductance measurement instrument, including schematic redesign, custom PCB layout, fabrication, and experimental testing.
-
-**Highlights:** Electronic measurement · Circuit design · PCB fabrication · Hardware validation
-
-[View project →](https://github.com/foreber-v2/Inductance-Meter-Custom-Hardware)
-
-
-### 🧰 Tools & Technologies
+## 🧰 Tools
 
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -46,23 +61,16 @@ Development and modification of an inductance measurement instrument, including 
 ![FreeCAD](https://img.shields.io/badge/FreeCAD-CA3434?style=flat-square&logo=freecad&logoColor=white)
 ![Onshape](https://img.shields.io/badge/Onshape-1B5FAA?style=flat-square&logo=onshape&logoColor=white)
 
-Additional experience with electronics debugging, mechanical fabrication, sensor-based data acquisition, and engineering documentation.
+## 📚 Background
 
-### 📚 Background
+- Mechanical Engineering graduate
+- Completed Harvard's CS50
+- Self-directed projects in hardware design, programming, fabrication and system integration
 
-- Mechanical Engineering graduate.
-- Completed Harvard's CS50 introductory computer science course.
-- Self-directed engineering projects involving hardware design, programming, fabrication, and system integration.
-- Interested in engineering R&D, automation, instrumentation, and practical industrial solutions.
+## 📬 Let's work together
 
-### 📬 Contact
+Open to engineering roles, freelance projects and collaboration.
 
-**Email:** [contacto@solucionesdedalo.com](mailto:contacto@solucionesdedalo.com)
+**Email:** [contacto@solucionesdedalo.com](mailto:contacto@solucionesdedalo.com) · **Web:** [solucionesdedalo.com](https://solucionesdedalo.com)
 
-**Website:** [solucionesdedalo.com](https://solucionesdedalo.com)
-
-*Open to engineering projects, technical collaboration, and opportunities involving mechanical systems, embedded electronics, prototyping, and industrial data.*
-
----
-
-*This portfolio documents personal engineering projects, design iterations, and demonstrated results. Project descriptions distinguish completed functionality from planned improvements.*
+<sub>This portfolio documents personal engineering projects. Each project page separates completed functionality from planned improvements.</sub>
