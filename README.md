@@ -65,7 +65,7 @@
 
 - Mechanical Engineering graduate
 - Completed Harvard's CS50
-- Completed course for Microsoft Certified: Power BI Data Analyst Associate
+- Completed Microsoft Certified: Power BI Data Analyst Associate course
 - Self-directed projects in hardware design, programming, fabrication and system integration
 
 ## 📬 Let's work together
