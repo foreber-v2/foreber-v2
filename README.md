@@ -57,9 +57,9 @@ Additional experience with electronics debugging, mechanical fabrication, sensor
 
 ### 📬 Contact
 
-**Email:** contacto@solucionesdedalo.com
+**Email:** [contacto@solucionesdedalo.com](mailto:contacto@solucionesdedalo.com)
 
-**Website:** solucionesdedalo.com (coming soon)
+**Website:** [solucionesdedalo.com](https://solucionesdedalo.com)
 
 *Open to engineering projects, technical collaboration, and opportunities involving mechanical systems, embedded electronics, prototyping, and industrial data.*
 
