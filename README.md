@@ -6,6 +6,7 @@
 **I turn engineering ideas into working systems.**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-solucionesdedalo.com-2450E6?style=for-the-badge)](https://solucionesdedalo.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eberflores)
 [![Email](https://img.shields.io/badge/Email-Contact_me-12202F?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contacto@solucionesdedalo.com)
 
 </div>
@@ -72,6 +73,7 @@
 
 Open to engineering roles, freelance projects and collaboration.
 
-**Email:** [contacto@solucionesdedalo.com](mailto:contacto@solucionesdedalo.com) · **Web:** [solucionesdedalo.com](https://solucionesdedalo.com)
+**Email:** [contacto@solucionesdedalo.com](mailto:contacto@solucionesdedalo.com) · **Web:** [solucionesdedalo.com](https://solucionesdedalo.com) · **LinkedIn:** [Eber Flores](https://www.linkedin.com/in/eberflores/)
+
 
 <sub>This portfolio documents personal engineering projects. Each project page separates completed functionality from planned improvements.</sub>
