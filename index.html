@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mechanical Engineer · Mechatronics, Embedded Systems & Industrial Data</title>
+<meta name="description" content="Mechanical engineer building electromechanical prototypes: embedded firmware, custom PCBs, instrumentation and industrial data.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F3F5F8; --surface:#FFFFFF; --ink:#12202F; --steel:#566679;
+  --line:#D5DBE3; --accent:#2450E6; --accent-ink:#FFFFFF; --tint:#E8EDFC;
+}
+@media (prefers-color-scheme: dark){
+  :root{--bg:#0F1722; --surface:#172231; --ink:#E7ECF3; --steel:#9AA8B8;
+    --line:#2A384A; --accent:#6E8CFF; --accent-ink:#0F1722; --tint:#1C2A45;}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 "IBM Plex Sans",system-ui,sans-serif}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:"IBM Plex Sans Condensed","IBM Plex Sans",sans-serif;line-height:1.1;margin:0}
+nav{display:flex;justify-content:space-between;align-items:center;padding:20px 0;font-size:15px}
+nav b{font-weight:600}
+nav div{display:flex;gap:22px}
+nav a{text-decoration:none;color:var(--steel)}
+nav a:hover{color:var(--ink)}
+
+.hero{display:grid;grid-template-columns:1.2fr .8fr;gap:48px;align-items:center;padding:56px 0 72px}
+.hero h1{font-size:clamp(40px,6vw,68px);font-weight:700;letter-spacing:-.01em}
+.hero p{color:var(--steel);max-width:52ch;margin:20px 0 28px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:12px 20px;border-radius:6px;font-weight:600;font-size:15px;text-decoration:none;border:1.5px solid var(--ink)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.btn:hover{transform:translateY(-1px)}
+.hero svg{width:100%;height:auto;color:var(--accent)}
+
+section{padding:40px 0}
+h2{font-size:34px;margin-bottom:8px}
+.sub{color:var(--steel);margin:0 0 32px}
+
+.project{display:grid;grid-template-columns:1.1fr 1fr;background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden;margin-bottom:28px}
+.project:nth-child(even) .shot{order:2}
+.shot{position:relative;min-height:280px;background:
+  linear-gradient(var(--line) 1px,transparent 1px) 0 0/24px 24px,
+  linear-gradient(90deg,var(--line) 1px,transparent 1px) 0 0/24px 24px,var(--tint);
+  display:flex;align-items:center;justify-content:center;color:var(--steel);font-size:14px}
+.shot img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.body{padding:32px}
+.body h3{font-size:28px;margin-bottom:10px}
+.body p{margin:0 0 16px;color:var(--steel)}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 24px;padding:0;list-style:none}
+.tags li{font-size:13.5px;padding:4px 10px;border-radius:99px;background:var(--tint);color:var(--ink)}
+.body .btn{padding:10px 16px;font-size:14px}
+
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.skill{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:22px}
+.skill h3{font-size:21px;margin-bottom:6px}
+.skill p{margin:0;font-size:15px;color:var(--steel)}
+.tools{margin-top:28px;display:flex;flex-wrap:wrap;gap:8px}
+.tools span{font-size:14px;padding:6px 12px;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+
+.about{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+.about ul{margin:0;padding-left:20px;color:var(--steel)}
+.about li{margin-bottom:8px}
+
+.contact{background:var(--ink);color:var(--bg);border-radius:12px;padding:48px;margin:40px 0 24px;text-align:left}
+.contact h2{margin-bottom:12px}
+.contact p{margin:0 0 24px;max-width:52ch;opacity:.85}
+.contact .btn{border-color:var(--bg);color:var(--bg)}
+.contact .btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+footer{color:var(--steel);font-size:14px;padding:16px 0 48px}
+
+@media (max-width:760px){
+  .hero,.project,.about{grid-template-columns:1fr}
+  .project:nth-child(even) .shot{order:0}
+  .hero svg{max-width:320px}
+  .contact{padding:32px 24px}
+  nav div{gap:14px}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn:hover{transform:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav aria-label="Main">
+    <b>Soluciones Dédalo</b>
+    <div><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#about">About</a><a href="#contact">Contact</a></div>
+  </nav>
+
+  <header class="hero">
+    <div>
+      <h1>I turn engineering ideas into working systems.</h1>
+      <p>Mechanical engineer building electromechanical prototypes: custom PCBs, embedded firmware, instrumentation and industrial data. From a single circuit to a complete machine.</p>
+      <div class="btns">
+        <a class="btn primary" href="#projects">See my projects</a>
+        <a class="btn" href="#contact">Get in touch</a>
+      </div>
+    </div>
+    <!-- Simple PCB-trace illustration; replace with your own photo or render if you like -->
+    <svg viewBox="0 0 320 280" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <rect x="110" y="90" width="100" height="100" rx="8" fill="var(--tint)"/>
+      <circle cx="132" cy="112" r="4" fill="currentColor"/>
+      <path d="M110 115H60V60H20M110 140H40V200H20M110 165H70V240H120M210 115H260V60H300M210 140H280V200H300M210 165H250V240H200M135 90V40H100M185 90V30H220M135 190V250M185 190V250" opacity=".85"/>
+      <circle cx="20" cy="60" r="6" fill="var(--bg)"/><circle cx="20" cy="200" r="6" fill="var(--bg)"/>
+      <circle cx="300" cy="60" r="6" fill="var(--bg)"/><circle cx="300" cy="200" r="6" fill="var(--bg)"/>
+      <circle cx="100" cy="40" r="6" fill="var(--bg)"/><circle cx="220" cy="30" r="6" fill="var(--bg)"/>
+    </svg>
+  </header>
+
+  <section id="projects">
+    <h2>Featured projects</h2>
+    <p class="sub">Real hardware, designed, built and tested.</p>
+
+    <article class="project">
+      <div class="shot">
+        <span>Add photo: assets/sinker-edm.jpg</span>
+        <img src="assets/sinker-edm.jpg" alt="STM32-based sinker EDM prototype" loading="lazy" onerror="this.remove()">
+      </div>
+      <div class="body">
+        <h3>STM32-Based Sinker EDM</h3>
+        <p>A custom electrical discharge machine prototype that combines power electronics, embedded control, custom PCBs and mechanical fabrication.</p>
+        <ul class="tags"><li>STM32 firmware</li><li>Power electronics</li><li>Custom PCBs</li><li>System integration</li></ul>
+        <div class="btns">
+          <a class="btn primary" href="https://foreber-v2.github.io/stm32-sinker-edm/">View project page</a>
+          <a class="btn" href="https://github.com/foreber-v2/stm32-sinker-edm">Source code</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="project">
+      <div class="shot">
+        <span>Add photo: assets/inductance-meter.jpg</span>
+        <img src="assets/inductance-meter.jpg" alt="Custom inductance meter PCB" loading="lazy" onerror="this.remove()">
+      </div>
+      <div class="body">
+        <h3>Inductance Meter: Custom Hardware</h3>
+        <p>A redesigned inductance measurement instrument, with a new schematic, a custom PCB layout, fabrication and experimental validation.</p>
+        <ul class="tags"><li>Measurement circuits</li><li>Schematic redesign</li><li>PCB fabrication</li><li>Hardware validation</li></ul>
+        <div class="btns">
+          <a class="btn primary" href="https://github.com/foreber-v2/Inductance-Meter-Custom-Hardware">View project</a>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <section id="skills">
+    <h2>What I work on</h2>
+    <p class="sub">Mechanical, electronic and software skills in one person.</p>
+    <div class="skills">
+      <div class="skill"><h3>Mechanical</h3><p>Prototyping, fabrication, equipment modification, CAD.</p></div>
+      <div class="skill"><h3>Electronics</h3><p>Circuit design, PCB development, measurement systems, power electronics.</p></div>
+      <div class="skill"><h3>Embedded</h3><p>STM32, C, microcontroller peripherals, real-time control.</p></div>
+      <div class="skill"><h3>Industrial data</h3><p>Python, SQL, Power BI, Power Query, data preprocessing.</p></div>
+      <div class="skill"><h3>Software</h3><p>Kotlin, Android, Jetpack, MVVM and Room.</p></div>
+    </div>
+    <div class="tools" aria-label="Tools">
+      <span>C</span><span>Python</span><span>SQL</span><span>Kotlin</span><span>STM32</span><span>KiCad</span><span>Power BI</span><span>Android</span><span>FreeCAD</span><span>Onshape</span>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div>
+      <h2>Background</h2>
+      <p class="sub">Self-directed engineer who ships working hardware.</p>
+    </div>
+    <ul>
+      <li>Mechanical Engineering graduate.</li>
+      <li>Completed Harvard's CS50 introductory computer science course.</li>
+      <li>Personal projects covering hardware design, programming, fabrication and system integration.</li>
+      <li>Interested in R&amp;D, automation, instrumentation and practical industrial solutions.</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Let's work together</h2>
+    <p>Open to engineering roles, freelance projects and technical collaboration in mechanical systems, embedded electronics, prototyping and industrial data.</p>
+    <div class="btns">
+      <a class="btn primary" href="mailto:contacto@solucionesdedalo.com">contacto@solucionesdedalo.com</a>
+      <a class="btn" href="https://github.com/foreber-v2">GitHub profile</a>
+    </div>
+  </section>
+
+  <footer>This portfolio documents personal engineering projects and design iterations. Each project page separates completed functionality from planned improvements.</footer>
+</div>
+</body>
+</html>
