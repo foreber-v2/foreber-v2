@@ -1,6 +1,6 @@
 <div align="center">
 
-# Eber Flores 
+# EBER FLORES
 ## Mechanical Engineer · Embedded Systems & Industrial Data
 
 **I turn engineering ideas into working systems.**
