@@ -3,7 +3,7 @@
 # EBER FLORES
 ## Mechanical Engineer · Embedded Systems & Industrial Data
 
-**I turn engineering ideas into working systems.**
+**Turning engineering ideas into working systems.**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-solucionesdedalo.com-2450E6?style=for-the-badge)](https://solucionesdedalo.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eberflores)
