@@ -19,7 +19,7 @@
   <tr>
     <td width="50%" align="center">
       <a href="https://foreber-v2.github.io/stm32-sinker-edm/">
-        <img src="assets/sinker-edm.jpg" alt="STM32-Based Sinker EDM" width="100%">
+        <img src="assets/process_in_action.gif" alt="STM32-Based Sinker EDM" width="100%">
       </a>
       <h3>⚡ STM32-Based Sinker EDM</h3>
       <p>Custom electrical discharge machine: power electronics, embedded control, custom PCBs and mechanical fabrication.</p>
